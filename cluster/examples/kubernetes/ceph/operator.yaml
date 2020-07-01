@@ -67,7 +67,7 @@ data:
   # CSI_RBD_PLUGIN_UPDATE_STRATEGY: "OnDelete"
 
   # kubelet directory path, if kubelet configured to use other than /var/lib/kubelet path.
-  # ROOK_CSI_KUBELET_DIR_PATH: "/var/lib/kubelet"
+  ROOK_CSI_KUBELET_DIR_PATH: "/var/snap/microk8s/common/var/lib/kubelet"
 
   # (Optional) Ceph Provisioner NodeAffinity.
   # CSI_PROVISIONER_NODE_AFFINITY: "role=storage-node; storage=rook, ceph"
